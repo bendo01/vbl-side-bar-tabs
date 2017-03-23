@@ -1,14 +1,11 @@
 {
     "name": "vbl-side-bar-tabs",
     "version": "0.0.1",
-    "description": "SideBarTab component for vbl",
+    "description": "SideBarTabs component for vbl",
     "main": "src/SideBarTabs.vue",
     "peerDependencies": {
         "bulma": ">=0.4",
-        "vue": ">=2",
-        "vbl-side-bar-tab": ">=0.0",
-        "vbl-header-side-bar": ">=0.0",
-
+        "vue": ">=2"
     },
     "repository": "vbl-side-bar-tabs",
     "keywords": [
