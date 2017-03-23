@@ -17,7 +17,7 @@
         "laravel",
         "vbl",
         "vbl-component",
-        "vbl-side-bar-tab"
+        "vbl-side-bar-tabs"
     ],
     "author": "Benny Leonard Enrico Panggabean <bendo01@gmail.com>",
     "license": "MIT"
