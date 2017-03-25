@@ -2,7 +2,7 @@
     <div>
         <aside class="background-is-black-transparent side-navigation right">
             <div class="tabs is-centered margin-bottom-none background-is-black-transparent">
-                <ul>
+                <ul id="tab-top-menu">
                     <li v-for="tab in tabs" :class="{ 'is-active':tab.isActive }">
                         <a :href="tab.href" @click="selectTab(tab)">
                             <i class="fa fa-fw" v-bind:class="tab.icon" aria-hidden="true"></i>
