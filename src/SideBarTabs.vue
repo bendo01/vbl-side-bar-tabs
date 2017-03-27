@@ -31,12 +31,7 @@ export default {
     methods: {
         selectTab (selectedTab) {
             this.tabs.forEach(tab => {
-                if(tab.name === selectedTab.name) {
-                    tab.isActive = true;
-                }
-                else {
-                    tab.isActive = false;
-                }
+                tab.isActive = (tab.name === selectedTab.name);
             });
         },
         toogleSideBarMenu () {

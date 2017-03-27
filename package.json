@@ -1,6 +1,6 @@
 {
     "name": "vbl-side-bar-tabs",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "SideBarTabs component for vbl",
     "main": "src/SideBarTabs.vue",
     "dependencies": {
